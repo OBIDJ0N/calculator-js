@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="container">
+    <main class="main">
+      <div class="header">
+        <h1 class="title">calc</h1>
+        <div class="theme row">
+          <p class="theme-title">THEME</p>
+          <div class="theme_toggle">
+            <div class="theme-toggle-numbers">
+              <span class="number">1</span>
+              <span class="number">2</span>
+              <span class="number">3</span>
+            </div>
+            <div class="toggle">
+              <div class="toggle-item"></div>
+              <div class="toggle-item"></div>
+              <div class="toggle-item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="calculator_display">
+        <div class="previous-operand calculator_display-item"></div>
+        <div class="current-operand calculator_display-item"></div>
+      </div>
+      <div class="calculator_items">
+        <div data-number class="item">7</div>
+        <div data-number class="item">8</div>
+        <div data-number class="item">9</div>
+        <div data-delete class="item">DEL</div>
+        <div data-number class="item">4</div>
+        <div data-number class="item">5</div>
+        <div data-number class="item">6</div>
+        <div data-operation class="item">+</div>
+        <div data-number class="item">1</div>
+        <div data-number class="item">2</div>
+        <div data-number class="item">3</div>
+        <div data-operation class="item">-</div>
+        <div data-number class="item">.</div>
+        <div data-number class="item">0</div>
+        <div data-operation class="item">/</div>
+        <div data-operation class="item">x</div>
+        <div data-reset class="item">RESET</div>
+        <div data-equal class="item">=</div>
+      </div>
+    </main>
+  </section>
+
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+
+  <script src="js/app.js"></script>
+</body>
+</html>
