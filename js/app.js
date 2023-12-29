@@ -41,7 +41,7 @@ window.addEventListener('DOMContentLoaded', () => {
             case '-':
                 result = previousOperand - currentOperand;
                 break;
-            case '*':
+            case 'x':
                 result = previousOperand * currentOperand;
                 break;
             case '/':
